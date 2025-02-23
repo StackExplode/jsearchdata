@@ -1,4 +1,3 @@
-{ "data":
 [
         {
             "name":"谷歌",
@@ -44,7 +43,5 @@
         {
             "name":"公司Gitlab",
             "url" : "http://www.njust-lyw.com:28080/"
-        },
-
+        }
 ]
-}
