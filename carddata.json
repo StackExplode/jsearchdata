@@ -1,12 +1,48 @@
 [
-    {
-        "name":"谷歌",
-        "img" : "https://pic1.imgdb.cn/item/5e53413a6127cc07135c140a.jpg",
-        "url" : "https://google.com"
-    },
-    {
-        "name":"百度",
-        "img" : "https://pic1.imgdb.cn/item/5e53413a6127cc07135c140a.jpg",
-        "url" : "https://baidu.com"
-    }
-]
+        {
+            "name":"谷歌",
+            "url" : "https://google.com"
+        },
+        {
+            "name":"百度",
+            "color":"#87d5ff",
+            "url" : "https://baidu.com"
+        },
+        {
+            "name":"Bilibili",
+            "url" : "https://bilibili.com"
+        },
+        {
+            "name":"淘宝",
+            "url" : "https://taobao.com"
+        },
+        {
+            "name":"QQ邮箱",
+            "url" : "https://mail.qq.com"
+        },
+        {
+            "name":"我的博客",
+            "url" : "https://blog.jloli.cc"
+        },
+        {
+            "name":"总挂载",
+            "url" : "https://home.nene.love:30098"
+        },
+        {
+            "name":"Github",
+            "url" : "https://github.com"
+        },
+        {
+            "name":"CodeSpaces",
+            "url" : "https://github.dev"
+        },
+        {
+            "name":"微软Copilot",
+            "url" : "https://copilot.microsoft.com/"
+        },
+        {
+            "name":"公司Gitlab",
+            "url" : "http://www.njust-lyw.com:28080/"
+        },
+
+    ];
