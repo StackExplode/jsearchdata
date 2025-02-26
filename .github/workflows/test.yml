@@ -16,10 +16,11 @@ jobs:
         uses: actions/checkout@v2
 
       # 安装 Lua
-      - name: Install Lua
+      - name: 安装Lua和其他依赖
         run: |
           sudo apt-get update
           sudo apt-get install -y lua5.3
+          luarocks install lua-cjson
 
       # 运行 Lua 脚本
       - name: Run Lua script
