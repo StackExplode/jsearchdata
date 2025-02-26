@@ -11,19 +11,20 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # 检出代码
+      # 检出代码并引用Lua和Luarocks环境
       - name: Checkout code
         uses: actions/checkout@v2
+      - uses: leafo/gh-actions-lua@v10
+        with:
+          luaVersion: "5.1.5"
+      - uses: leafo/gh-actions-luarocks@v4
 
       # 安装 Lua
-      - name: 安装Lua和其他依赖
+      - name: 安装Lua依赖
         run: |
-          sudo apt-get update
-          sudo apt-get install -y lua5.3
           luarocks install json-lua
 
       # 运行 Lua 脚本
       - name: Run Lua script
         run: |
           lua Action/test.lua
- 
