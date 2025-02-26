@@ -2,12 +2,18 @@
   {
     "repeate" : "month",
     "date" : "2025-03-01",
-    "aheead" : 3,
-    "message" : "<span style='color:red'>Today is the first day of month!</span>"
+    "aheead" : 3,,
+    "style" : "color:red",
+    "message" : "Today is the first day of month!"
   },
   {
     "repeate" : "year",
     "date" : "2025-05-13",
     "message" : "续费美国3服务器"    
+  },
+  {
+    "repeate": "week",
+    "week": [1,4],
+    "message": "每周一、四都会提醒"
   }
 ]
