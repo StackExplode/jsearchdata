@@ -1,4 +1,4 @@
-local json = require "json"
+local json = require("JSON")
 
 -- Lua 脚本示例：输出调试信息到 GitHub Actions 日志
 os.execute("echo '::notice::Starting the Lua script execution.'")  -- 调试信息
