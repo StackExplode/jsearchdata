@@ -1,6 +1,6 @@
 local json = require("JSON")
 
-local fname = "d_scheduel.json"
+local fname = "d_schedule.json"
 
 os.execute("echo '::notice::Script start!'")
 
