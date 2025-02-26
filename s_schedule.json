@@ -1,0 +1,13 @@
+[
+  {
+    "repeate" : "month",
+    "date" : "2025-03-01",
+    "aheead" : 3,
+    "message" : "<span style='color:red'>Today is the first day of month!</span>"
+  },
+  {
+    "repeate" : "year",
+    "date" : "2025-05-13",
+    "message" : "续费美国3服务器"    
+  }
+]
