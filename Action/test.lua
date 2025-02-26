@@ -48,7 +48,7 @@ for k,v in pairs(jjj) do
 	end
 end
 
-local rst = json:encode_pretty(jjj)
+local rst = json:encode_pretty(jjj,nil,{pretty = true, align_keys = false, array_newline = true, indent = "    "})
 
 file = io.open(fname, "w")
 file:write(rst)
