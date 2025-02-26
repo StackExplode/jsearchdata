@@ -20,7 +20,7 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install -y lua5.3
-          luarocks install lua-cjson
+          luarocks install json-lua
 
       # 运行 Lua 脚本
       - name: Run Lua script
