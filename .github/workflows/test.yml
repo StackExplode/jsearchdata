@@ -2,8 +2,8 @@ name: Run Lua Script Daily Test
 
 on:
   schedule:
-    # 每天午夜 00:00 UTC 执行
-    - cron: '0 0 * * *'
+    # 每天午夜 00:00 UTC 执行（北京时间+8）
+    - cron: '16 0 * * *'
   workflow_dispatch:  # 允许手动触发工作流
 
 jobs:
