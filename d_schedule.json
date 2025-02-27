@@ -1,10 +1,10 @@
 [
   {
-    "date": "2025-03-01",
-    "message": "I am message"
+    "date": "2025-02-27",
+    "message": "测试晚上自动清除"
   },
   {
-    "ahead": 1,
+    "ahead": 2,
     "date": "2025-04-27",
     "message": "Happy birthday!"
   }
