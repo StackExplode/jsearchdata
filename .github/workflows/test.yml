@@ -27,7 +27,7 @@ jobs:
       # 运行 Lua 脚本
       - name: Run Lua script
         run: |
-          lua Action/test.lua
+          lua Action/CleanOldSchedule.lua
           # 配置 Git
           git config --global user.name "NeNe"
           git config --global user.email "nene@jloli.cc"
