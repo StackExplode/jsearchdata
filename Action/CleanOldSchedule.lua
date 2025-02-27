@@ -2,7 +2,7 @@ local json = require("JSON")
 
 local fname = "d_schedule.json"
 
-os.execute("echo '::notice::Script start!'")
+os.execute("echo '::notice::Script start!v2.0'")
 
 function GetTimeStampFromStr(date_str)
 
