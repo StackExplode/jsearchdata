@@ -33,7 +33,7 @@ jobs:
           git config --global user.email "nene@jloli.cc"
 
           # 检查文件修改并提交
-          git add d_scheduel.json
+          git add d_schedule.json
           git commit -m "Remove old scheduel via GH Actions"
           
           # 推送修改到仓库
