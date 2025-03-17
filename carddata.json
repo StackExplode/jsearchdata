@@ -29,6 +29,10 @@
             "url" : "https://home.nene.love:30098"
         },
         {
+            "name":"游戏王卡组",
+            "url" : "https://deck-maker.com/yg/decks/search/"
+        },
+        {
             "name":"Github",
             "url" : "https://github.com"
         },
