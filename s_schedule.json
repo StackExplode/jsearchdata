@@ -62,6 +62,12 @@
   {
     "repeate" : "year",
     "ahead" : 7,
+    "date" : "2055-03-23",
+    "message" : "测试Static 日程！"  
+  },
+  {
+    "repeate" : "year",
+    "ahead" : 7,
     "date" : "2055-08-17",
     "message" : "续费nene.love域名"  
   }
