@@ -1,5 +1,18 @@
-## I am title
+1. 论文
+2. 整理宿舍电脑文件
+3. 多路电源设计
+4. USB转XXX板子+配件
+5. 规范化开发
+6. 标定开发
+7. PCB改版
+8. 改IAP
 
-* dwadwad
-* dwadwda
-* dwadadwa
+#### PCB改版：
+
+1. 输入电源x2
+2. Modbus Masterx2（选通CAN）
+3. TxRx引脚检查，多引出AB
+4. 去除120R电阻
+5. 电机传感器
+6. RC滤波
+7. 螺丝孔金属化
