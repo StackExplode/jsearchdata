@@ -70,5 +70,23 @@
     "ahead" : 7,
     "date" : "2055-08-17",
     "message" : "续费nene.love域名"  
+  },
+  {
+    "repeate" : "year",
+    "ahead" : 7,
+    "date" : "2055-10-10",
+    "message" : "续费gan.moe（dynadot）！"  
+  },
+  {
+    "repeate" : "year",
+    "ahead" : 7,
+    "date" : "2055-03-16",
+    "message" : "续费lolis.moe（dynadot）！"  
+  },
+  {
+    "repeate" : "year",
+    "ahead" : 7,
+    "date" : "2055-10-19",
+    "message" : "续费Interserver主网页服务！"  
   }
 ]
