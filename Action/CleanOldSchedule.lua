@@ -4,6 +4,10 @@ local fname = "d_schedule.json"
 
 os.execute("echo '::notice::Script start!v2.0'")
 
+file = io.open("dummy.txt", "w")
+file:write(os.time())
+file:close()
+
 function GetTimeStampFromStr(date_str)
 
 -- 提取年、月、日
